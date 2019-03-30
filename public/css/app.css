@@ -6783,3 +6783,25 @@ button.close {
 .pd-l-40 {
   padding-left: 40px;
 }
+.btn-round {
+  border-radius: 20px;
+}
+.btn {
+  border-radius: 20px;
+}
+.block-service {
+  background-image: url('https://unsplash.it/1200/1200');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+.block-service .service-name {
+  color: #fff;
+  font-size: 21px;
+  text-transform: uppercase;
+}

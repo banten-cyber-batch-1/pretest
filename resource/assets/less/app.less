@@ -1,1 +1,27 @@
 @import '_all.less';
+
+.btn-round {
+    border-radius: 20px;
+}
+
+.btn {
+    .btn-round();
+}
+
+.block-service {
+    background-image: url('https://unsplash.it/1200/1200');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    .text-center();
+
+    .service-name {
+        color: #fff;
+        font-size: 21px;
+        .text-uppercase();
+    }
+}
