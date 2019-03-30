@@ -16,7 +16,7 @@
 		<![endif]-->
 	</head>
 	<body>
-		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<nav class="navbar navbar-default" role="navigation">
 			<div class="container">
 				<a class="navbar-brand" href="#">Title</a>
 				<ul class="nav navbar-nav">
@@ -29,7 +29,39 @@
 				</ul>
 			</div>
 		</nav>
-		<h1> Rani </h1>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="block-service">
+						<div class="service-name">
+							Cuci
+						</div>
+						<div class="service-action">
+							<a href="#" class="btn btn-primary">Selengkapnya</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="block-service">
+						<div class="service-name">
+							Sablon
+						</div>
+						<div class="service-action">
+							<a href="#" class="btn btn-primary">Selengkapnya</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="block-service">
+						<div class="service-name">Setrum</div>
+						<div class="service-action">
+							<a href="#" class="btn btn-primary">Selengkapnya</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
 		<!-- jQuery -->
 		<script src="bower_components/jquery/dist/jquery.min.js"></script>
